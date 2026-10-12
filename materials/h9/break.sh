@@ -33,4 +33,4 @@ systemctl daemon-reload
 systemctl enable --now old-web >/dev/null 2>&1
 systemctl enable httpd >/dev/null 2>&1
 systemctl start httpd 2>/dev/null || true
-echo "準備ができました。「Web サーバーにつながらない」という連絡が来た、という場面から始めます。"
+echo "準備ができました。「Web サーバーのページがおかしい」という連絡が来た、という場面から始めます。"
