@@ -1,0 +1,13 @@
+{
+  "name": "Linux 入門（AlmaLinux 10）",
+  "build": { "dockerfile": "Dockerfile" },
+  "remoteUser": "student",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "terminal.integrated.defaultProfile.linux": "bash",
+        "terminal.integrated.fontSize": 16
+      }
+    }
+  }
+}
