@@ -8,7 +8,7 @@
 
 ```bash
 cd ~/linux-practice
-curl -LO https://github.com/TechStudy123/linux-practice/releases/latest/download/materials.tar.gz
+curl -LO https://raw.githubusercontent.com/TechStudy123/linux-practice/main/materials.tar.gz
 tar -tzf materials.tar.gz
 tar -xzf materials.tar.gz
 ```
