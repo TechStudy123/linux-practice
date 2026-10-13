@@ -1,6 +1,13 @@
 {
   "name": "Linux 入門（AlmaLinux 10）",
-  "build": { "dockerfile": "Dockerfile" },
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "runArgs": [
+    "--privileged"
+  ],
+  "overrideCommand": false,
+  "containerUser": "root",
   "remoteUser": "student",
   "customizations": {
     "vscode": {
