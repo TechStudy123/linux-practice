@@ -25,5 +25,5 @@ tar -xzf materials.tar.gz
 ## Codespaces（WSL が使えない方）
 
 このリポジトリの「Code」→「Codespaces」→「Create codespace on main」で、AlmaLinux 10 のターミナルが開きます（ユーザーは `student`、`sudo` が使えます）。
-Codespaces では systemd が動かないため、`systemctl`・`journalctl` を使う所は動画を見て進めてください。
+WSL と同じく `systemctl`・`journalctl` も使えます（systemd を動かすため、特権コンテナで起動します）。
 使い終わったら Codespace を止めてください（無料枠の時間を使い切らないため）。
