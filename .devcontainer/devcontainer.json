@@ -14,7 +14,8 @@
       "settings": {
         "terminal.integrated.defaultProfile.linux": "bash",
         "terminal.integrated.fontSize": 16,
-        "terminal.integrated.gpuAcceleration": "off"
+        "terminal.integrated.gpuAcceleration": "off",
+        "git.enabled": false
       }
     }
   }
