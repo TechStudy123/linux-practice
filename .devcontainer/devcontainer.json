@@ -13,7 +13,8 @@
     "vscode": {
       "settings": {
         "terminal.integrated.defaultProfile.linux": "bash",
-        "terminal.integrated.fontSize": 16
+        "terminal.integrated.fontSize": 16,
+        "terminal.integrated.gpuAcceleration": "off"
       }
     }
   }
